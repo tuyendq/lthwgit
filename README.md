@@ -5,6 +5,7 @@
 
 
 ```
+git -v
 git --version
 git clone URL-HERE
 git checkout -- .
