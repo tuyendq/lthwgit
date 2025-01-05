@@ -32,6 +32,10 @@ $
 ```
 git -v
 git --version
+git init
+git init REPO-NAME-HERE
+git status
+git log
 git clone URL-HERE
 git checkout -- .
 ```
