@@ -33,6 +33,8 @@ git init REPO-NAME-HERE
 git status
 git log
 git log -NUMBER-HERE
+git log FILENAME-HERE
+git log -NUMBER-HERE FILENAME-HERE
 git add FILENAME-HERE
 git add .
 git commit -m "MESSAGE-HERE"
