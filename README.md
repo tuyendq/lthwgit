@@ -38,6 +38,16 @@ git log -NUMBER-HERE FILENAME-HERE
 git add FILENAME-HERE
 git add .
 git commit -m "MESSAGE-HERE"
+
+git revert HEAD
+git revert HEAD --no-edit
+git revert HEAD -n
+
+git checkout HEAD~1 -- FILENAME-HERE
+
+git restore --staged FILENAME-HERE
+git restore --staged
+
 git clone URL-HERE
 git checkout -- .
 ```
