@@ -32,6 +32,7 @@ git init
 git init REPO-NAME-HERE
 git status
 git log
+git log -NUMBER-HERE
 git add FILENAME-HERE
 git add .
 git commit -m "MESSAGE-HERE"
@@ -40,9 +41,17 @@ git checkout -- .
 ```
 
 ## Terms
-- Staging area:  
+- Staging area:
+- Commit:
+- Tree:
+- Blob: Binary Large OBject  
+- hash:
+- 
 
 ## Free Courses
 [SAP Cloud Platform Version Control with Git](https://open.sap.com/courses/git1) by Arnaldo Cavazos
 
 - [DataCamp: Introduction to Git](https://app.datacamp.com/learn/courses/introduction-to-git)
+
+## Books
+[Pro Git book](https://git-scm.com/book/en/v2)
