@@ -7,3 +7,6 @@
 ```
 git checkout -- .
 ```
+
+
+- [DataCamp: Introduction to Git](https://app.datacamp.com/learn/courses/introduction-to-git)
