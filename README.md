@@ -25,10 +25,6 @@ git version 2.39.5
 $
 ```
 
-## Free Courses
-[SAP Cloud Platform Version Control with Git](https://open.sap.com/courses/git1) by Arnaldo Cavazos
-
-
 ```
 git -v
 git --version
@@ -36,9 +32,17 @@ git init
 git init REPO-NAME-HERE
 git status
 git log
+git add FILENAME-HERE
+git add .
+git commit -m "MESSAGE-HERE"
 git clone URL-HERE
 git checkout -- .
 ```
 
+## Terms
+- Staging area:  
+
+## Free Courses
+[SAP Cloud Platform Version Control with Git](https://open.sap.com/courses/git1) by Arnaldo Cavazos
 
 - [DataCamp: Introduction to Git](https://app.datacamp.com/learn/courses/introduction-to-git)
