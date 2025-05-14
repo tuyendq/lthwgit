@@ -50,7 +50,29 @@ git restore --staged
 
 git clone URL-HERE
 git checkout -- .
+
+# Work with branch
+git branch
+git switch <branch-name>
+git switch -c <new-branch>
+git branch -m <existing_branch> <new_branch>
+git branch -d <branch-name-to-delete>
+
+git diff
+
+git merge <source-branch> [destination-branch]
+
+git fetch origin  # fetch all branches of [remote - named origin] repo
+git fetch origin main  # fetch only branch 'main' of [remote - named origin] repo
+git pull origin # fetch and merge
+git pull origin dev
+
+
 ```
+
+Types of merging:  
+- fast-forward  
+- 
 
 ## Terms
 - Staging area:
@@ -58,7 +80,12 @@ git checkout -- .
 - Tree:
 - Blob: Binary Large OBject  
 - hash:
-- 
+- pull request:
+- push
+- merge
+- HEAD
+
+
 
 ## Free Courses
 [SAP Cloud Platform Version Control with Git](https://open.sap.com/courses/git1) by Arnaldo Cavazos
